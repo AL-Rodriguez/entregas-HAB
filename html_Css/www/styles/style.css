@@ -1,0 +1,158 @@
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kameron&display=swap');
+
+
+body {
+    border: 1px solid black;
+    padding: 10px;
+    width: 950px;
+    font-family: 'Kameron', serif;
+}
+
+header {
+    font-family: 'Kameron', serif;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 150px;
+}
+
+
+nav ul {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+main {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+    height: 950px;
+    padding: 10px;
+    
+}
+
+
+aside{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 310px;
+    height: 400px;
+    left: 640px;
+    background-color:white;
+    text-align: center;
+    padding: 10PX;
+}
+
+.rrss {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.profile_image {
+    width: 200px;
+    height: 200px;
+    border-radius: 450%;
+}
+.best{
+    text-align: left;
+    padding-left: 50px;
+    font-size: 220%;
+}
+.favs{
+    text-align: left;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.hours{
+    background-color: rgb(34, 31, 31);
+    color: white;
+}
+table{
+    text-align:center
+}
+th {
+    background-color: rgb(34, 31, 31);
+    color: white;
+    font-weight: bold;
+}
+
+.clear {
+    background-color: rgb(240, 231, 231);
+}
+
+.darkness {
+    background-color: rgb(68, 67, 65);
+    color: white;
+}
+.video{
+    display: flex;
+    align-content: center;
+}
+
+form{
+    display: grid;
+    max-width: 400px;
+    max-height: 600px;
+    padding-left: 60px;
+    font-size: 90%;
+}
+input:required {
+    border: 2px solid red;
+}
+button {
+    margin-top: 10px;
+    width: 60px;
+    height: 40px;
+    background-image: rgb(112, 116, 151) ;
+}
+footer {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    height: 60px;
+    align-content: center;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+
+
+
